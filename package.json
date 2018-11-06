@@ -23,7 +23,7 @@
   },
   "scripts": {
     "start": "gulp serve",
-    "prettier": "prettier ./**/*.{ts,json,md,scss} --write",
+    "prettier": "prettier ./**/*.{js,json,md,scss} --write",
     "clean": "gulp clean",
     "build": "npm run clean && npm run prettier && gulp build"
   },

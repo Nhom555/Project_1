@@ -13994,7 +13994,7 @@ readers do not read off random characters that represent icons */
 }
 
 .sm-gutters > .col,
-.sm-gutters > [class*="col-"] {
+.sm-gutters > [class*='col-'] {
   padding-right: 10px;
   padding-left: 10px;
 }
@@ -14009,7 +14009,7 @@ readers do not read off random characters that represent icons */
   text-align: center;
   position: relative;
   z-index: 1;
-  color: #FFF;
+  color: #fff;
 }
 
 .hi-icon:hover {
@@ -14171,7 +14171,7 @@ readers do not read off random characters that represent icons */
 }
 
 .hi-icon-effect-3a .hi-icon:hover {
-  color: #FFF;
+  color: #fff;
 }
 
 .hi-icon-effect-3a .hi-icon:hover:after {
@@ -14200,7 +14200,7 @@ readers do not read off random characters that represent icons */
 }
 
 .hi-icon-effect-3b .hi-icon:hover {
-  color: #FFF;
+  color: #fff;
 }
 
 .hi-icon-effect-3b .hi-icon:hover:after {
@@ -14725,13 +14725,20 @@ readers do not read off random characters that represent icons */
 .facebook-comment .fb_iframe_widget,
 .facebook-comment .fb_iframe_widget span,
 .facebook-comment .fb_iframe_widget span iframe[style],
-.facebook-comment .fb-comments span, .facebook-comment .fb-comments iframe {
+.facebook-comment .fb-comments span,
+.facebook-comment .fb-comments iframe {
   width: 100% !important;
 }
 
 /* ==========================================================================
 Header
 ========================================================================== */
+.header {
+  height: 100px;
+  width: auto;
+  background-color: red;
+}
+
 /* ==========================================================================
 Footer
 ========================================================================== */

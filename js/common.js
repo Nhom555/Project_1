@@ -9,12 +9,10 @@
 if (Modernizr.touch === true && $(window).width() <= 767) {
   //alert('Touch Screen');
 } else {
-
 }
 
-(function ($) {
+(function($) {
   'use strict';
-
 
   /* ==================================================
   # Get scroll bar width
@@ -22,6 +20,7 @@ if (Modernizr.touch === true && $(window).width() <= 767) {
   function getBarwidth() {
     // Create the measurement node
     let scrollDiv = document.createElement('div');
+
     scrollDiv.className = 'scrollbar-measure';
     document.body.appendChild(scrollDiv);
 
@@ -62,8 +61,7 @@ if (Modernizr.touch === true && $(window).width() <= 767) {
     init();
   }); // end document ready function
 
-  $(window).on('scroll', function() {
-  });
+  $(window).on('scroll', function() {});
 
   // if ($('.x-toTop').length) {
   //   var scrollTrigger = 100, // px
@@ -80,5 +78,4 @@ if (Modernizr.touch === true && $(window).width() <= 767) {
   //     backToTop();
   //   });
   // }
-
 })(jQuery); // End jQuery
